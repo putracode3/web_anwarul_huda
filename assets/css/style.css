@@ -1239,7 +1239,8 @@ General Styles - Owlcarousel
 	Navbar
 --------------------------------------------------------------*/
 .navbar-custom {
-  background-color: rgba(10, 10, 10, 0.9);
+  /*background-color: rgba(10, 10, 10, 0.9); rubah*/
+  background-color: #fff;
   border: 0;
   border-radius: 0;
   z-index: 1000;
@@ -1248,6 +1249,8 @@ General Styles - Owlcarousel
   letter-spacing: 3px;
   font-size: 11px;
   transition: background, padding 0.4s ease-in-out 0s;
+    -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
 }
 
 .navbar a {
@@ -1266,12 +1269,14 @@ General Styles - Owlcarousel
   letter-spacing: 4px;
   font-weight: 400;
   font-size: 22px;
-  color: #fff;
+  /*color: #fff;*/
+  color: #585858;
 }
 
 .navbar-custom .nav li > a {
   position: relative;
-  color: rgba(255, 255, 255, 0.7);
+  /*color: rgba(255, 255, 255, 0.7);*/
+  color: #585858;
 }
 
 .navbar-custom .dropdown-menu > li > a {
@@ -1304,7 +1309,8 @@ General Styles - Owlcarousel
 .navbar-custom .dropdown-menu > li > a:focus,
 .navbar-custom .dropdown-menu > li > a:hover {
   background: none;
-  color: #fff;
+  /*color: #fff;*/
+  color: #585858;
 }
 
 .navbar-custom .dropdown-menu > li > a:hover {
@@ -1326,7 +1332,8 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
-  background: #fff;
+  /*background: #fff;*/
+  background: #585858;
 }
 
 .dropdown-menu {
@@ -2698,9 +2705,11 @@ Google map
 --------------------------------------------------------------*/
 @media (min-width: 768px) {
   .navbar-transparent {
-    background: transparent;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    /*background: transparent; rubah*/
+    /*padding-bottom: 15px;
+    padding-top: 15px;*/
+    padding-bottom: 12px;
+    padding-top: 12px;
   }
   .navbar-custom .dropdown-menu {
     position: absolute;
