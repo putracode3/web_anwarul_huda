@@ -1175,7 +1175,7 @@ General Styles - Owlcarousel
 /*--------------------------------------------------------------
 	Preloader
 --------------------------------------------------------------*/
-.page-loader {
+/*.page-loader {
   position: fixed;
   background: #000;
   bottom: 0;
@@ -1233,7 +1233,7 @@ General Styles - Owlcarousel
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
+}*/
 
 /*--------------------------------------------------------------
 	Navbar
