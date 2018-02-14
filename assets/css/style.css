@@ -1012,13 +1012,13 @@ General Styles - FlexSlider
 .flex-direction-nav .flex-prev {
   opacity: 0;
   left: 0;
-  cursor: url(../images/prev-light.png), e-resize;
+  cursor: url(../images/prev-light.svg), e-resize;
 }
 
 .flex-direction-nav .flex-next {
   opacity: 0;
   right: 0;
-  cursor: url(../images/next-light.png), e-resize;
+  cursor: url(../images/next-light.svg), e-resize;
 }
 
 .flex-control-nav {
@@ -2708,8 +2708,8 @@ Google map
     /*background: transparent; rubah*/
     /*padding-bottom: 15px;
     padding-top: 15px;*/
-    padding-bottom: 12px;
-    padding-top: 12px;
+    padding-bottom: 6px;
+    padding-top: 6px;
   }
   .navbar-custom .dropdown-menu {
     position: absolute;
